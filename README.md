@@ -14,6 +14,7 @@
 
 1. [Sign up OpenAI account](https://beta.openai.com/overview)
 2. [Create Azure function account: Azure function helps to manage a whole application system](https://portal.azure.com/?quickstart=true#home)
+3. [Postman to test the API](https://web.postman.co/workspace/My-Workspace~93480ba9-8acf-4ff3-87c3-10ccda3760d8/overview?workspaceOnboarding=show)
 
 ## Create a serverless wrapper API with ChatGPT
 
