@@ -18,3 +18,7 @@
 ## Create a serverless wrapper API with ChatGPT
 
 Connect to OpenAI API and create an Azure function that leverages ChatGPT
+
+## How to deploy a serverless app in Azure Function
+
+https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azurefunctions
