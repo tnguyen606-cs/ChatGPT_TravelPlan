@@ -28,10 +28,12 @@
 ## Video Walkthrough
 
 * Enter input values to generate the prompt as example below:
+
 <img src='TravelPlan 2.02.00 AM.gif' title='TravelPlan' width='500' alt='Video Walkthrough' />
 
 * ChatGPT responses to the prompt'input:
-<img src='TravelPlan2.gif' title='ChatGPT's Respone' width='500' alt='Video Walkthrough' />
+
+<img src='TravelPlan2.gif' title='ChatGPTRespone' width='500' alt='Video Walkthrough' />
 
 GIF created with **LiceCap**
 
