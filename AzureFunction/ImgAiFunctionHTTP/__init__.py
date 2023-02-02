@@ -5,29 +5,30 @@ import azure.functions as func
 secret_key = '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'
 
 # request_body
-# {"model":"text-davinci-003", "prompt":"Give me a slogan for a fruit company", "max_tokens":200, "temperature":0}
+# {"model":"text-davinci-003", "prompt":"A fruit company", "max_tokens":200, "temperature":0}
 
 
 def main(req: func.HttpRequest) -> func.HttpResponse:
-    logging.info('Python HTTP trigger function processed a request.')
+    logging.info(
+        'Python HTTP trigger function processed a request for ImageAI.')
 
     # give OpenAI the secret_key to auth
     openai.api_key = secret_key
+    openai.Model.list()
 
     # get variable from HTTP request body
     req_body = req.get_json()
     logging.info(type(req_body))
 
     # call OpenAI API
-    output = openai.Completion.create(
-        model=req_body['model'],
+    image_resp = openai.Image.create(
         prompt=req_body['prompt'],
-        max_tokens=req_body['max_tokens'],
-        temperature=req_body['temperature']
+        n=1,
+        size="1024x1024"
     )
 
     # format the response
-    output_text = output['choices'][0]['text']
+    image_url = image_resp['data'][0]['url']
 
     # provide/echo the response
-    return func.HttpResponse(output_text, status_code=200)
+    return func.HttpResponse(image_url, status_code=200)
