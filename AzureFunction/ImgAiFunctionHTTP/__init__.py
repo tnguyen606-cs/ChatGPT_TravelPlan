@@ -2,7 +2,7 @@ import logging
 import openai
 import azure.functions as func
 
-secret_key = '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'
+secret_key = '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'
 
 # request_body
 # {"model":"text-davinci-003", "prompt":"A fruit company", "max_tokens":200, "temperature":0}
@@ -14,7 +14,6 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
 
     # give OpenAI the secret_key to auth
     openai.api_key = secret_key
-    openai.Model.list()
 
     # get variable from HTTP request body
     req_body = req.get_json()

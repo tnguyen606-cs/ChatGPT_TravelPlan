@@ -2,7 +2,7 @@ import logging
 import openai
 import azure.functions as func
 
-secret_key = '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'
+secret_key = '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'
 
 # request_body
 # {"model":"text-davinci-003", "prompt":"Give me a slogan for a fruit company", "max_tokens":200, "temperature":0}
