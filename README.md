@@ -31,11 +31,11 @@
 
 <img src='TravelPlan 2.02.00 AM.gif' title='TravelPlan' width='500' alt='Video Walkthrough' />
 
-* ChatGPT responses to the prompt'input:
+* ChatGPT responses to the prompt's inputs:
 
 <img src='TravelPlan2.gif' title='ChatGPTRespone' width='500' alt='Video Walkthrough' />
 
-GIF created with **LiceCap**
+* GIF created with **LiceCap**
 
 ## License
 
