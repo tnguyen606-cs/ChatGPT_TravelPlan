@@ -2,7 +2,7 @@ import logging
 import openai
 import azure.functions as func
 
-secret_key = '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'
+secret_key = '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'
 
 # request_body
 # {"model":"text-davinci-003", "prompt":"Give me a slogan for a fruit company", "max_tokens":200, "temperature":0}
@@ -30,5 +30,4 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
     output_text = output['choices'][0]['text']
 
     # provide/echo the response
-    return func.HttpResponse(output_text,
-                             status_code=200)
+    return func.HttpResponse(output_text, status_code=200)
