@@ -8,7 +8,7 @@
 
 ## Why learn how to integrate ChatGPT into your solutions and applications
 
-**Improve your productivity** - imagine how easy it would be for ChatGPT to create a first draft on your travel itinerary to Vietnam. 
+**Improve your productivity** - imagine how easy it would be for ChatGPT to create a first draft on your travel itinerary to Atlanta or anywhere. 
 
 ## Environment setup
 
