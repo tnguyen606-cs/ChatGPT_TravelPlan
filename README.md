@@ -12,7 +12,7 @@ Imagine how easy it would be for ChatGPT to create a first draft on your travel 
 
 ## How does ChatGPT work?
 
-* There are two parts: 
+There are two parts: 
 
 ### 1. Trainning
 
@@ -28,7 +28,7 @@ Imagine how easy it would be for ChatGPT to create a first draft on your travel 
 - Step 5-6: Once the model generates the response, it is sent to a content moderation component again. This ensures the generated response is safe, harmless, unbiased, etc.
 - Step 7: If the input passes content moderation, it is shown to the user. If the input doesn’t pass content moderation, it goes to template response generation and shows a template answer to the user.
 
-* [Learn more](https://platform.openai.com/docs/guides/completion/introduction)
+[Learn more](https://platform.openai.com/docs/guides/completion/introduction)
 
 ## Environment setup
 
