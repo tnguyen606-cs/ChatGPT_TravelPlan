@@ -1,6 +1,6 @@
 # ChatGPT - TravelPlan
 
-## Description:
+## Introduction:
 
 * `TravelPlan` enables users to create detailed itineraries after specifying a location they are traveling, how long they are going for, and what they want to do based on location, trip length, and interests.
 
